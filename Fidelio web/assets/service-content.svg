@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="metal" x1="8" y1="5" x2="40" y2="43" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF8FF"/><stop offset=".4" stop-color="#E8B7FF"/><stop offset=".76" stop-color="#C05AFF"/><stop offset="1" stop-color="#8435FF"/></linearGradient>
+    <filter id="glow" x="-45%" y="-45%" width="190%" height="190%"><feGaussianBlur stdDeviation="2.1" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <g stroke="#32105E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" transform="translate(0 1.8)"><rect x="7" y="10" width="31" height="29" rx="5"/><path d="M12 6h29v27M12 18h21M12 25h8"/><path d="m24 23 9 5-9 5z"/></g>
+  <g stroke="url(#metal)" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"><rect x="7" y="8" width="31" height="29" rx="5"/><path d="M12 4h29v27M12 16h21M12 23h8"/><path d="m24 21 9 5-9 5z"/></g>
+  <path d="M11 12h21" stroke="#FFF" stroke-opacity=".82" stroke-width="1.1" stroke-linecap="round"/>
+  <circle cx="35.5" cy="9.5" r="2" fill="#F4C7FF"/>
+</svg>
